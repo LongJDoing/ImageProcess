@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IMageProcess", "IMageProcess\IMageProcess.vcxproj", "{AB565ED0-F8BB-4307-A2B8-384ECDE3FD13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB565ED0-F8BB-4307-A2B8-384ECDE3FD13}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AB565ED0-F8BB-4307-A2B8-384ECDE3FD13}.Debug|Win32.Build.0 = Debug|Win32
+		{AB565ED0-F8BB-4307-A2B8-384ECDE3FD13}.Release|Win32.ActiveCfg = Release|Win32
+		{AB565ED0-F8BB-4307-A2B8-384ECDE3FD13}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

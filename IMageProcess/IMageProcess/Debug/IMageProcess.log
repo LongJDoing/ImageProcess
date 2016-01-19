@@ -1,0 +1,43 @@
+﻿生成启动时间为 2013/7/2 22:58:50。
+     1>项目“D:\code\IMageProcess\IMageProcess\IMageProcess\IMageProcess.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\IMageProcess.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         所有输出均为最新。
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\IMageProcess.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt IMageProcessDlg.cpp
+         IMageProcessDlg.cpp
+     1>d:\code\imageprocess\imageprocess\imageprocess\imageprocessdlg.cpp(1282): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\code\imageprocess\imageprocess\imageprocess\imageprocessdlg.cpp(1317): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\code\imageprocess\imageprocess\imageprocess\imageprocessdlg.cpp(1569): warning C4018: “<”: 有符号/无符号不匹配
+     1>d:\code\imageprocess\imageprocess\imageprocess\imageprocessdlg.cpp(1604): warning C4018: “<”: 有符号/无符号不匹配
+       ResourceCompile:
+         所有输出均为最新。
+       ManifestResourceCompile:
+         所有输出均为最新。
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\IMageProcess\IMageProcess\Debug\IMageProcess.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\IMageProcess.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\code\IMageProcess\IMageProcess\Debug\IMageProcess.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\IMageProcess\IMageProcess\Debug\IMageProcess.lib" /MACHINE:X86 Debug\IMageProcess.res
+         Debug\IMageProcess.exe.embed.manifest.res
+         Debug\ConnectComponentLabel.obj
+         Debug\ImageOperate.obj
+         Debug\IMageProcess.obj
+         Debug\IMageProcessDlg.obj
+         Debug\ISOData.obj
+         Debug\K_Means.obj
+         Debug\LeastQuadraticFiter.obj
+         Debug\MyMorphology.obj
+         Debug\MySlopeCluster.obj
+         Debug\stdafx.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\IMageProcess.exe.embed.manifest" /manifest Debug\IMageProcess.exe.intermediate.manifest "D:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         所有输出均为最新。
+       LinkEmbedManifest:
+         所有输出均为最新。
+         IMageProcess.vcxproj -> D:\code\IMageProcess\IMageProcess\Debug\IMageProcess.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug\IMageProcess.unsuccessfulbuild”。
+         正在对“Debug\IMageProcess.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\code\IMageProcess\IMageProcess\IMageProcess\IMageProcess.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:04.25

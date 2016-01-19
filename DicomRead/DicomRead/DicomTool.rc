@@ -1,0 +1,331 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#include ""res\\DicomTool.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""     // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\DicomTool.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 307, 315
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LISTBOX         IDC_LIST1,2,123,151,164,LBS_SORT | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_HSCROLL | WS_TABSTOP
+    LTEXT           "center:",IDC_STATIC,5,74,24,8
+    LTEXT           "width:",IDC_STATIC,5,94,21,8
+    GROUPBOX        "window set",IDC_STATIC,2,57,151,59
+    CONTROL         "center",IDC_RADIO_WCENTER,"Button",BS_AUTORADIOBUTTON | WS_GROUP,5,28,37,10
+    CONTROL         "width",IDC_RADIO_WWIDTH,"Button",BS_AUTORADIOBUTTON,63,28,33,10
+    GROUPBOX        "Use mouse wheel to adjust image ",IDC_STATIC,2,12,151,38
+    CONTROL         "",IDC_SLIDER_WCENTER,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,36,71,100,15
+    CONTROL         "",IDC_SLIDER_WWIDTH,"msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,36,92,100,15
+END
+
+IDD_DIALOG2 DIALOGEX 0, 0, 167, 315
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Histogram",IDC_HISTOGRAM,3,12,152,13
+    CONTROL         "",IDC_SLIDER1,"msctls_trackbar32",TBS_AUTOTICKS | TBS_BOTH | TBS_NOTICKS | TBS_TOOLTIPS | WS_TABSTOP,20,42,136,15
+    GROUPBOX        "Smooth",IDC_STATIC,3,70,152,46
+    CONTROL         "Mean",IDC_MEAN,"Button",BS_AUTORADIOBUTTON | WS_GROUP,6,89,39,10
+    CONTROL         "Guass",IDC_GAUSS,"Button",BS_AUTORADIOBUTTON,53,89,39,10
+    CONTROL         "Median",IDC_MEDIAN,"Button",BS_AUTORADIOBUTTON,99,89,39,10
+    GROUPBOX        "Edge detection",IDC_STATIC,3,130,152,61
+    CONTROL         "Gradient",IDC_GRADIENT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,6,150,39,10
+    CONTROL         "Roberts",IDC_ROBERTS,"Button",BS_AUTORADIOBUTTON,53,150,39,10
+    CONTROL         "Sobel",IDC_SOBEL,"Button",BS_AUTORADIOBUTTON,99,150,33,10
+    CONTROL         "Laplace",IDC_LAPLACIAN,"Button",BS_AUTORADIOBUTTON,6,173,40,10
+    GROUPBOX        "Morphology",IDC_STATIC,2,206,152,83
+    CONTROL         "Dilation",IDC_DILATION,"Button",BS_AUTORADIOBUTTON | WS_GROUP,6,227,39,10
+    CONTROL         "Erosion",IDC_EROSION,"Button",BS_AUTORADIOBUTTON,53,227,39,10
+    CONTROL         "Open",IDC_OPEN,"Button",BS_AUTORADIOBUTTON,99,227,33,10
+    CONTROL         "Close",IDC_CLOSE,"Button",BS_AUTORADIOBUTTON,6,250,33,10
+    CONTROL         "InnerEdge",IDC_INNEREDGE,"Button",BS_AUTORADIOBUTTON,53,251,49,10
+    CONTROL         "OuterEdge",IDC_OUTEREDGE,"Button",BS_AUTORADIOBUTTON,99,251,51,10
+    CONTROL         "MorphologyEdge",IDC_MORPHOLOGYEDGE,"Button",BS_AUTORADIOBUTTON,6,271,69,10
+    LTEXT           "Binary",IDC_STATIC,3,45,23,8
+END
+
+IDD_DIALOG3 DIALOGEX 0, 0, 162, 315
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_CHILD | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    PUSHBUTTON      "Send",IDC_SEND,91,44,53,37
+    LTEXT           "IP",IDC_STATIC,6,46,8,8
+    LTEXT           "Port",IDC_STATIC,6,71,14,8
+    LISTBOX         IDC_LIST_SEND,6,93,138,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Client",IDC_STATIC,0,31,152,127
+    PUSHBUTTON      "Receive",IDC_RECEIVE,91,179,53,37
+    LTEXT           "Port",IDC_STATIC,6,183,14,8
+    LISTBOX         IDC_LIST_RECEIVE,6,228,138,52,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Server",IDC_STATIC,0,166,152,127
+    CONTROL         "client",IDC_RADIO_CLIENT,"Button",BS_AUTORADIOBUTTON | WS_GROUP,2,15,33,10
+    CONTROL         "server",IDC_RADIO_SERVER,"Button",BS_AUTORADIOBUTTON,61,15,37,10
+    COMBOBOX        IDC_COMBO_SIP,25,44,62,47,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_SPORT,25,69,62,48,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO_RPORT,25,181,62,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        RIGHTMARGIN, 162
+        TOPMARGIN, 7
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        RIGHTMARGIN, 164
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 308
+    END
+
+    IDD_DIALOG3, DIALOG
+    BEGIN
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 313
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "File"
+    BEGIN
+        MENUITEM "Open",                        ID_FILE_OPEN
+        MENUITEM "Save",                        ID_FILE_SAVE
+        MENUITEM "Dump",                        ID_FILE_DUMP
+    END
+    POPUP "Help"
+    BEGIN
+        MENUITEM "About DICOMTool",             ID_HELP_ABOUTDICOMTOOL
+    END
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 190, 87
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About DicomTool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,21,20
+    LTEXT           "DicomTool, Version 1.0",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2011",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "OK",IDOK,133,66,50,14,WS_GROUP
+    LTEXT           "mail:     xlj@zju.edu.cn",IDC_STATIC,16,46,102,13
+END
+
+IDD_DICOMTOOL_DIALOG DIALOGEX 0, 0, 569, 364
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "DicomTool"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    CONTROL         "",IDC_STATIC,"Static",SS_BLACKFRAME,4,3,374,326
+    CONTROL         "",IDC_TAB1,"SysTabControl32",WS_BORDER,387,3,172,326,WS_EX_CLIENTEDGE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_DICOMTOOL_DIALOG, DIALOG
+    BEGIN
+        RIGHTMARGIN, 562
+        BOTTOMMARGIN, 358
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904e4"
+        BEGIN
+            VALUE "CompanyName", "TODO: <Company name>"
+            VALUE "FileDescription", "TODO: <File description>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "DicomTool.exe"
+            VALUE "LegalCopyright", "TODO: (c) <Company name>.  All rights reserved."
+            VALUE "OriginalFilename", "DicomTool.exe"
+            VALUE "ProductName", "TODO: <Product name>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1252
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About DicomTool..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#include "res\DicomTool.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"     // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
