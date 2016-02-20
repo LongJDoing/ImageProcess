@@ -19,4 +19,8 @@ slopeCluster, kMeans
 
 ####Test image:
 ![image](https://github.com/LongJDoing/ImageProcess/blob/master/ImageCalculate/ImageCalculate/test.jpg)
-!(image)
+![image](https://github.com/LongJDoing/ImageProcess/blob/master/IMageProcess/IMageProcess/image/temp2.bmp)
+
+####Result image:
+![image](https://github.com/LongJDoing/ImageProcess/blob/master/IMageProcess/IMageProcess/1.bmp)
+![image](https://github.com/LongJDoing/ImageProcess/blob/master/IMageProcess/IMageProcess/5.bmp)
