@@ -16,3 +16,7 @@ image calculate with a Dialog, include mean, variance, centralPosition, area, an
 image process with dialog, include histogram, otsuThreshold, calentropyThreshold, binary, guassianfilter, 
 Medianfilter, sobleKernel, prewittkernel, laplacekerner, convolution, leastQuadraticFilter, morphology,
 slopeCluster, kMeans
+
+####Test image:
+![image](https://github.com/LongJDoing/ImageProcess/blob/master/ImageCalculate/ImageCalculate/test.jpg)
+!(image)
